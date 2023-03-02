@@ -1,0 +1,15 @@
+<div class="row search-item" *ngFor="let item of searchResult" style="margin: 25px auto; width: 800px; border-top:1px solid #ddd ;padding:10px;">
+    <div class="col-sm-3">
+        <a href="details/{{item.id}}">
+            <img style="width: 100%; object-fit:contain; height:150px;" src="{{item.image}}"   alt="">
+
+        </a>
+    </div>
+    <div class="col-sm-8 details">
+        <h6 style="font-size: 24px; color:black;"> <a href="details/{{item.id}}">{{item.name}}</a></h6>
+        <p style="margin: 5px;">Rs.{{item.price}}/-</p>
+        <p style="margin: 5px;"><span style="margin-right: 10px;">color:{{item.color}}</span> <br> <span 
+                style="margin-right: 10px;">Category:{{item.category}}</span></p>
+        <p style="margin: 5px;">{{item.description}}</p>
+    </div>
+</div>

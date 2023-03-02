@@ -1,0 +1,32 @@
+<div>
+    <h1>All product List</h1>
+    <p>{{productMessage}}</p>
+    <table style="text-align: left; color:black ;border-collapse: collapse;">
+        <thead>
+            <tr>
+                <th style="border: 1px solid black; padding: 10px; min-height: 160px;">image</th>
+                <th style="border: 1px solid black; padding: 10px; min-height: 160px;">Name</th>
+                <th style="border: 1px solid black; padding: 10px; min-height: 160px;">Price</th>
+                <th style="border: 1px solid black; padding: 10px; min-height: 160px;">Color</th>
+                <th style="border: 1px solid black; padding: 10px; min-height: 160px;">Category</th>
+                <th style="border: 1px solid black; padding: 10px; min-height: 160px;">descrption</th>
+                <th style="border: 1px solid black; padding: 10px; min-height: 160px;">Action</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of productList">
+                <td style="border: 1px solid black; padding: 10px; min-height: 160px;"><img width="100px" height="100px"
+                        src="{{item.name}}" /></td>
+                <td style="border: 1px solid black; padding: 10px; min-height: 160px;">{{item.image}}</td>
+
+                <td style="border: 1px solid black; padding: 10px; min-height: 160px;">{{item.price}} </td>
+                <td style="border: 1px solid black; padding: 10px; min-height: 160px;"> {{item.color}}</td>
+                <td style="border: 1px solid black; padding: 10px; min-height: 160px;"> {{item.category}}</td>
+                <td style="border: 1px solid black; padding: 10px; min-height: 160px;">{{item.description}}</td>
+                <td style="border: 1px solid black; padding: 10px; min-height: 160px;"><button
+                        (click)="deleteProduct(item.id)">Delete</button> <a style="margin-left:10px;" href="seller-updateproduct">update</a> </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

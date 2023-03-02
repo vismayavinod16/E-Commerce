@@ -1,0 +1,35 @@
+  "products":[
+    {
+"name":"Treviso 2 Seater Velvet Sofa In Steel Grey Colour",
+"price":41,990,
+"color":"black",
+"category":"sofa",
+"Details":"Brand
+Woodsworth
+Dimensions(In Inches)
+H 37.5 x W 63.5 x D 39.75
+Weight
+43 KG
+Warranty
+36 Months' Warranty
+Assembly
+Carpenter Assembly
+Primary Material
+Velvet Fabric
+Room Type
+Living Room
+Collection
+Treviso
+Seating Height
+19
+Product Rating
+5
+Dimensions (In Centimeters)
+H 96.52 x W 162.56 x D 101.6
+Sofa Firmness
+Soft
+Sku
+FM1958716-S-WH32456"
+    }
+  ]
+  npx json-server --watch db.json --port 3000

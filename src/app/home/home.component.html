@@ -1,0 +1,123 @@
+<!-- < id="carouselExampleCaptions" class="carousel slide"> -->
+<!-- <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+</div> -->
+<div class="carousel-inner">
+    <div class="carousel-item active">
+        <div style="background-color: white; height:500px; width:100%;">
+            <img style="margin-top: 50px; height:400px; width:800px; margin-left:700px;"
+                src="https://i.postimg.cc/CL8ny5PY/Wooden-Furniture-Pieces.webp" alt="">
+
+        </div>
+        <div class="carousel-caption d-none d-md-block">
+            <h5 style="color: black; font-family:monospace; margin-bottom: 140px; margin-left: -200px;font-size: 80px; text-align: left;">
+                <span style="color: orange;">
+                <b>&</b></span><b>other</b> <br><b>furniture</b></h5>
+            <p style="color: black; margin-left: -200px;font-size: 20px; text-align: left;font-family:'Lucida Sans', 'Lucida Sans Regular', 
+            'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"
+            >We Create Furniture,interiors <br>& accessories with respect <br> for people & the environment</p>
+        </div>
+    </div>
+    <!-- <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+            </div>
+        </div> -->
+</div>
+<!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+</button> -->
+<!-- </div> -->
+<div style=" background-image: url(https://i.postimg.cc/pVcQY7pz/spacejoy-c0-Jo-R-2x3-E-unsplash.jpg);background-size: cover;
+ width: 100%; height:400px; margin-top: 0px;" > <br> <br> <br><br><br> <br><br><br> 
+ <p style="margin-left:1100px;  text-align:left;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+ 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;margin-bottom: -200px; color: black; font-size: 20px;" >
+    we create furniture and accessories <br>a contemporary joyful aesthestic with <br>
+    a resourceful design eye looking to <br>technologies that respect <br> communities and environments.
+    </p>
+</div>
+<div>
+    <h1 class="p-5 text-center"
+        style="font-family:Georgia, 'Times New Roman', Times, serif ; color: rgb(159, 135, 80);">Search By Category</h1>
+
+</div>
+<div class="container text-center ">
+    <div class="row">
+        <div class="p-5 col-3">
+            <a (click)="filter('')">
+                <img style="height: 330px; width: 280px;" src="https://i.postimg.cc/G2407k7h/dc8eb49b4bd35afd81ba8f75b2f1206a.jpg" alt="">
+                <h6>Dining Table</h6>
+            </a>
+        </div>
+        <div class="p-5 col-3">
+            <a (click)="filter(6)">
+                <img style="height: 330px; width:280px ;" src="https://i.postimg.cc/tRdD0sKX/e696e2b291411a05dc3f179847a711c2.jpg" alt="">
+                <h6>Sofa</h6>
+
+            </a>
+        </div>
+        <div class="p-5 col-3">
+            <a (click)="filter(2)">
+                <img style="height: 330px; width:280px ;" src="https://i.postimg.cc/NMcTb4fR/DSC0185.webp" alt="">
+                <h6>Home Decor</h6>
+
+            </a>
+        </div>
+
+
+        <div class="p-5 col-3">
+            <a (click)="filter(3)">
+                <img style="height: 330px; width:280px;" src="https://i.postimg.cc/mZFkhMLs/baguio-tripod-lamp-in-white-color-by
+                -casacraft-baguio-tripod-lamp-in-white-color-by-casacraft-zfjzra.webp" alt="">
+                <h6>Lightning</h6>
+
+            </a>
+        </div>
+
+
+    </div>
+</div>
+
+    
+ <div style=" background-image: url(https://i.postimg.cc/jdBq7C1V/photo-1589441197404-5a2d5c2b1423.jpg);
+ background-size: cover;
+ width: 100%; height:500px; margin-top: 0px;" >
+ </div>
+ <div style="margin-top: 80px; margin: bottom 80px;" class="product-list-wrapper">
+    <h1 class="text-center" style="  font-family:Georgia, 'Times New Roman', Times, serif ; color: rgb(159, 135, 80);">Popular Products</h1>
+    <div class="row">
+        <div class="col-sm-3" *ngFor="let item of popularProducts">
+            <div class="product-item" style="margin-bottom: 40px; border: 1px solid #ddd; margin-left: 25px; ">
+                <img src="{{item.image}}" alt="">
+                <div class="productdetails"
+                    style="border-top: 1px solid #ddd; border-bottom:1px solid #ddd; padding:15px;">
+                    <h6 class="name-head" style="margin: 0; text-align:center; font-size:20px; font-weight:600;">{{item.name}}</h6>
+                    <div class="product-price" style="text-align: center;">
+                        <h6>price:{{item.price}}</h6>
+                    </div>
+                </div>
+                <div class="product-footer" style="display: flex; justify-content:space-between; padding:10px;">
+                    <a href="details/{{item.id}}">View details</a>
+                    <a href="">Add to cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>

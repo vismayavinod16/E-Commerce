@@ -1,0 +1,318 @@
+{
+  "seller": [
+    {
+      "name": "vismaya",
+      "email": "abc@gmail.com",
+      "password": "abc123",
+      "id": 1
+    },
+    {
+      "name": "aparna",
+      "email": "apz@gmail.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "name": "nidhin",
+      "password": "123",
+      "email": "nidhin@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "meenu",
+      "password": "123",
+      "email": "meenu@gmail.com",
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "name": " Classic Tethered Metallic Table (Set of 2)",
+      "price": "12999",
+      "color": "",
+      "category": "Table",
+      "description": "Smartly designed coffee table which is more than just mere tables in the corner. The luxurious golden touch on the metal makes it an attractive statement in your living room, bedroom or study. Round and resilient marble on the top is more like the cherry on the top which imparts that essential wholesome look to the table.",
+      "image": "https://i.postimg.cc/WpgZyj2Q/skybird-tables-classic-tethered.webp",
+      "id": 2
+    },
+    {
+      "name": "Handcrafted Matte White Donut Flower Vase",
+      "price": "849",
+      "color": "white",
+      "category": "Table decor",
+      "description": "This state-of-the-art sculptural pieces can be a focal point of your home décor. The versatile and simplistic design of these vases opens up a lot of functional opportunities. One can use them with fresh flowers, dried branches, or maybe just nothing. This green donut shaped ceramic pottery is a multipurpose set and the perfect accessory for your home décor. Use these to decorate a single flower stem, dry stem or put it in a corner just like that. Buy it for yourself, or gift it to others, its simple yet stately look is sure to impress you.",
+      "image": "https://i.postimg.cc/Jnh0XjHp/crok-chok-vases-handcrafted.webp",
+      "id": 3
+    },
+    {
+      "name": "Playful Figurine Wooden Floor Lamp",
+      "price": "4999",
+      "color": "",
+      "category": "Floor Lamb",
+      "description": " An eccentric human figure floor lamp that instantly lifts up the mood. A fun and creative designer wooden lamp which could be the best addition to the living room as well as bedroom. The best part is, it is movable and adjustable, therefore you can change it's position and stance as according to the way you want.",
+      "image": "https://i.postimg.cc/sXMv0fMJ/lamp-3-800x.webp",
+      "id": 4
+    },
+    {
+      "name": "Vintage Golden Round Metal Wall Clock",
+      "price": "4,699",
+      "category": "wall clock",
+      "color": "Golden",
+      "description": ": A wall clock which makes any room stand out. The golden touch makes it one of a kind wall clock, the elegance of which is class apart. It is more of a cherished piece of decor which acts as a statement piece at your place. A cleanly painted wall needs nothing more than a striking wall clock which sets aside all other decor forms. An ideal piece for home, offices and cafes.",
+      "image": "https://i.postimg.cc/SKnkNqhS/skybird-metal-wall-clock-vintage-golden-round-metal-wall-clock-33508559421606-800x.webp",
+      "id": 6
+    },
+    {
+      "name": "Handmade Ceramic Multicolor Camel Designer Kettle Set Of 10",
+      "price": "2,599",
+      "category": "kitchen&Dining",
+      "color": "multicolor",
+      "description": "Made of premium quality ceramic in attractive multicolor\n Dishwasher Safe ,Freezer Safe ,Non Toxic ,Bpa Free ,Environment Friendly ,Reusable And Odorless\n Package Content- Set of 6 Tea Cup, 1 Kettle & 2 Serving Bowls\n Colors may slightly vary from the original image\n Made in India",
+      "image": "https://i.postimg.cc/ncvv0jCm/crok-chok-tea-sets-handmade-ceramic-multicolor-camel.webp",
+      "id": 7
+    },
+    {
+      "name": "Shell Motif Luxury Green Velvet Lounge Chair",
+      "price": "14,999",
+      "category": "Lounge Chairs",
+      "color": "Green",
+      "description": "Dimension: Height 31 in X Width 30 in\n Material: Green velvet seat and golden finished iron leg\n USP: Resilient iron chair that fits perfect with your dining table. Can also be used as normal chair to be placed anywhere\n Package Content: Pack of 1 dining chair",
+      "image": "https://i.postimg.cc/Y0PyR49Z/vgvshb.webp",
+      "id": 8
+    },
+    {
+      "name": "Handpainted Matte Mint Green Ceramic Dinner Plates Set Of 2",
+      "price": "1,199",
+      "category": "kitchen&Dining",
+      "color": "MintGreen",
+      "description": "Dimension- 10 X10 X 1 Inches\n Made of premium quality ceramic in attractive matte turquoise color\n Dishwasher Safe ,Freezer Safe ,Non Toxic ,Bpa Free ,Environment Friendly ,Reusable And Odorless\n Package Content- 2 Dinner Plates\n Colors may slightly vary from the original image\n Made in India\n",
+      "image": "https://i.postimg.cc/T1TWsQyW/crok-chok-dinnerware-handpainted-matte-mint-green-ceramic-dinner-plates-set-of-2-33086692262054-800x.jpg",
+      "id": 9
+    },
+    {
+      "name": "Diamond Cut Clear Glass Scented Candle Jars / Candle Holders Set Of 2",
+      "price": "2,199",
+      "category": "scented Candles",
+      "color": "yellow",
+      "description": "Diamond cut glass jar comes with lid\nProduct Dimensions - 4.5inch X 4inch\nScented candles included\nComes in a set of two\n100% cotton wick\nProudly Made in INDIA",
+      "image": "https://i.postimg.cc/tJSY2pyf/a-decor-avenue-glass-jar-scented-candle-diamond-cut-clear-glass-scented-candle-jar-set-of-2-30033962.webp",
+      "id": 10
+    }
+  ],
+  "users": [
+    {
+      "name": "nidhin",
+      "email": "nidhin@gmail.com",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "name": "alwin",
+      "email": "alwin@gmail.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "name": "nidhin",
+      "email": "nidhin@gmail.com",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "name": "achu",
+      "email": "achu@gmail.com",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "name": "nidhin",
+      "email": "nidhin@gmail.com",
+      "password": "123",
+      "id": 5
+    },
+    {
+      "name": "nidhin",
+      "email": "nidhin@gmail.com",
+      "password": "123",
+      "id": 6
+    },
+    {
+      "name": "aparna",
+      "email": "apz@gmail.com",
+      "password": "123",
+      "id": 7
+    }
+  ],
+  "cart": [
+    {
+      "name": " Classic Tethered Metallic Table (Set of 2)",
+      "price": "12999",
+      "color": "",
+      "category": "Table",
+      "discrption": "Smartly designed coffee table which is more than just mere tables in the corner. The luxurious golden touch on the metal makes it an attractive statement in your living room, bedroom or study. Round and resilient marble on the top is more like the cherry on the top which imparts that essential wholesome look to the table.",
+      "image": "https://i.postimg.cc/WpgZyj2Q/skybird-tables-classic-tethered.webp",
+      "quantity": 1,
+      "productId": 2,
+      "userId": null,
+      "id": 4
+    },
+    {
+      "name": "Handcrafted Matte White Donut Flower Vase",
+      "price": "849",
+      "color": "white",
+      "category": "Table decor",
+      "discrption": "This state-of-the-art sculptural pieces can be a focal point of your home décor. The versatile and simplistic design of these vases opens up a lot of functional opportunities. One can use them with fresh flowers, dried branches, or maybe just nothing. This green donut shaped ceramic pottery is a multipurpose set and the perfect accessory for your home décor. Use these to decorate a single flower stem, dry stem or put it in a corner just like that. Buy it for yourself, or gift it to others, its simple yet stately look is sure to impress you.",
+      "image": "https://i.postimg.cc/Jnh0XjHp/crok-chok-vases-handcrafted.webp",
+      "quantity": 1,
+      "productId": 3,
+      "userId": null,
+      "id": 11
+    },
+    {
+      "name": "DOVETAIL CHAISE SECTIONAL SOFA",
+      "price": "51999",
+      "color": "grey",
+      "category": "sofa",
+      "description": "",
+      "image": "https://i.postimg.cc/wjVns7gy/Screenshot2023-01-20154304-800x.webp",
+      "quantity": 2,
+      "productId": 1,
+      "userId": null,
+      "id": 19
+    },
+    {
+      "name": "DOVETAIL CHAISE SECTIONAL SOFA",
+      "price": "51999",
+      "color": "grey",
+      "category": "sofa",
+      "description": "",
+      "image": "https://i.postimg.cc/wjVns7gy/Screenshot2023-01-20154304-800x.webp",
+      "quantity": 2,
+      "productId": 1,
+      "userId": null,
+      "id": 20
+    },
+    {
+      "name": " Classic Tethered Metallic Table (Set of 2)",
+      "price": "12999",
+      "color": "",
+      "category": "Table",
+      "discrption": "Smartly designed coffee table which is more than just mere tables in the corner. The luxurious golden touch on the metal makes it an attractive statement in your living room, bedroom or study. Round and resilient marble on the top is more like the cherry on the top which imparts that essential wholesome look to the table.",
+      "image": "https://i.postimg.cc/WpgZyj2Q/skybird-tables-classic-tethered.webp",
+      "quantity": 1,
+      "productId": 2,
+      "userId": null,
+      "id": 25
+    },
+    {
+      "name": "DOVETAIL CHAISE SECTIONAL SOFA",
+      "price": "51999",
+      "color": "grey",
+      "category": "sofa",
+      "description": "",
+      "image": "https://i.postimg.cc/wjVns7gy/Screenshot2023-01-20154304-800x.webp",
+      "quantity": 1,
+      "productId": 1,
+      "userId": null,
+      "id": 26
+    },
+    {
+      "name": " Classic Tethered Metallic Table (Set of 2)",
+      "price": "12999",
+      "color": "",
+      "category": "Table",
+      "description": "Smartly designed coffee table which is more than just mere tables in the corner. The luxurious golden touch on the metal makes it an attractive statement in your living room, bedroom or study. Round and resilient marble on the top is more like the cherry on the top which imparts that essential wholesome look to the table.",
+      "image": "https://i.postimg.cc/WpgZyj2Q/skybird-tables-classic-tethered.webp",
+      "quantity": 1,
+      "productId": 2,
+      "userId": null,
+      "id": 29
+    },
+    {
+      "name": "Handcrafted Matte White Donut Flower Vase",
+      "price": "849",
+      "color": "white",
+      "category": "Table decor",
+      "description": "This state-of-the-art sculptural pieces can be a focal point of your home décor. The versatile and simplistic design of these vases opens up a lot of functional opportunities. One can use them with fresh flowers, dried branches, or maybe just nothing. This green donut shaped ceramic pottery is a multipurpose set and the perfect accessory for your home décor. Use these to decorate a single flower stem, dry stem or put it in a corner just like that. Buy it for yourself, or gift it to others, its simple yet stately look is sure to impress you.",
+      "image": "https://i.postimg.cc/Jnh0XjHp/crok-chok-vases-handcrafted.webp",
+      "quantity": 1,
+      "productId": 3,
+      "userId": null,
+      "id": 31
+    },
+    {
+      "name": "Playful Figurine Wooden Floor Lamp",
+      "price": "4999",
+      "color": "",
+      "category": "Floor Lamb",
+      "description": " An eccentric human figure floor lamp that instantly lifts up the mood. A fun and creative designer wooden lamp which could be the best addition to the living room as well as bedroom. The best part is, it is movable and adjustable, therefore you can change it's position and stance as according to the way you want.",
+      "image": "https://i.postimg.cc/sXMv0fMJ/lamp-3-800x.webp",
+      "quantity": 1,
+      "productId": 4,
+      "userId": null,
+      "id": 32
+    },
+    {
+      "name": "Handmade Ceramic Multicolor Camel Designer Kettle Set Of 10",
+      "price": "2,599",
+      "category": "kitchen&Dining",
+      "color": "multicolor",
+      "description": "Made of premium quality ceramic in attractive multicolor\n Dishwasher Safe ,Freezer Safe ,Non Toxic ,Bpa Free ,Environment Friendly ,Reusable And Odorless\n Package Content- Set of 6 Tea Cup, 1 Kettle & 2 Serving Bowls\n Colors may slightly vary from the original image\n Made in India",
+      "image": "https://i.postimg.cc/ncvv0jCm/crok-chok-tea-sets-handmade-ceramic-multicolor-camel.webp",
+      "quantity": 1,
+      "productId": 7,
+      "userId": null,
+      "id": 34
+    },
+    {
+      "name": " Classic Tethered Metallic Table (Set of 2)",
+      "price": "12999",
+      "color": "",
+      "category": "Table",
+      "description": "Smartly designed coffee table which is more than just mere tables in the corner. The luxurious golden touch on the metal makes it an attractive statement in your living room, bedroom or study. Round and resilient marble on the top is more like the cherry on the top which imparts that essential wholesome look to the table.",
+      "image": "https://i.postimg.cc/WpgZyj2Q/skybird-tables-classic-tethered.webp",
+      "quantity": 1,
+      "productId": 2,
+      "userId": null,
+      "id": 35
+    },
+    {
+      "name": "Handcrafted Matte White Donut Flower Vase",
+      "price": "849",
+      "color": "white",
+      "category": "Table decor",
+      "description": "This state-of-the-art sculptural pieces can be a focal point of your home décor. The versatile and simplistic design of these vases opens up a lot of functional opportunities. One can use them with fresh flowers, dried branches, or maybe just nothing. This green donut shaped ceramic pottery is a multipurpose set and the perfect accessory for your home décor. Use these to decorate a single flower stem, dry stem or put it in a corner just like that. Buy it for yourself, or gift it to others, its simple yet stately look is sure to impress you.",
+      "image": "https://i.postimg.cc/Jnh0XjHp/crok-chok-vases-handcrafted.webp",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 3,
+      "id": 37
+    }
+  ],
+  "orders": [
+    {
+      "email": "",
+      "address": "",
+      "contact": "",
+      "totalPrice": 121492.00000000001,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "email": "",
+      "address": "",
+      "contact": "",
+      "totalPrice": 65098,
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "email": "",
+      "address": "",
+      "contact": "",
+      "totalPrice": 949.0000000000001,
+      "userId": 1,
+      "id": 3
+    }
+  ]
+}

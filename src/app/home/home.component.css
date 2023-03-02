@@ -1,0 +1,10 @@
+.productitem{
+    margin-bottom: 40px;
+     border:1 px solid #ddd;
+      margin-right:25px;
+}
+.product-item img{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}

@@ -1,0 +1,33 @@
+<div class="row product-details" style="margin-top: 50px;" *ngIf="productData">
+    <div class="col sm-6">
+        <img class="prodimg" style="width: 100%; height:400px ; object-fit: contain;" src="{{productData.image}}"
+            alt="">
+    </div>
+    <div class="col sm-6">
+        <div class="details" style="margin-top: 50px; margin-bottom:80px;">
+            <h1 style="margin-bottom: 20px;">{{productData.name}}</h1>
+            <h3>Rs.{{productData.price}}/-</h3>
+
+            <div>
+                color: <br>
+                <h5 [style.backgroundColor]="productData.color"
+                    style="border: 3px solid #000; width:40px; height:40px; border-radius:50%;margin-bottom: 20px;">
+                    </h5>
+
+            </div>
+            <h6 style="margin-bottom: 20px;">Category:{{productData.category}}</h6>
+            <h6 style="margin-bottom: 20px;"> Description: <br>{{productData.description}}</h6>
+            <button class="form-button">Buy Now</button>
+            <button *ngIf="!removeCart" class="form-button" (click)="addToCart()" >Add To Cart</button>
+            <button *ngIf="removeCart" class="form-button" (click)="RemoveToCart(productData.id)" >Remove To Cart</button>
+
+            <div class="quantity-group" style="margin-top: 20px;">
+                <button (click)="handleQuantity('min')" style="padding: 10px;">-</button>
+                <input style="width:50px; padding:10px;" type="text" value="{{productQuantity}}">
+                <button (click)="handleQuantity('plus')"  style="padding: 10px;">+</button>
+
+            </div>
+        </div>
+
+    </div>
+</div>
