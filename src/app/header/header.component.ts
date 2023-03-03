@@ -11,7 +11,6 @@ import { ProductService } from '../service/product.service';
 export class HeaderComponent {
     menuType: String = 'default';
     sellerName: string = '';
-    sellerData:string=''
     searchResults: undefined | product[];
     userName: string = '';
     cartItems=0;
@@ -22,8 +21,8 @@ export class HeaderComponent {
         if (val.url ) {
           if (localStorage.getItem('seller') && val.url.includes('seller')) {
             let sellerStore = localStorage.getItem('seller');
-           this.sellerData = sellerStore && JSON.parse(sellerStore)[0];
-            this.sellerName =this.sellerData;
+           let sellerData = sellerStore && JSON.parse(sellerStore)[0];
+            this.sellerName =sellerData.name;
             this.menuType = 'seller';
           }
           else if (localStorage.getItem('user')) {

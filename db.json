@@ -13,12 +13,6 @@
       "id": 2
     },
     {
-      "name": "nidhin",
-      "password": "123",
-      "email": "nidhin@gmail.com",
-      "id": 4
-    },
-    {
       "name": "meenu",
       "password": "123",
       "email": "meenu@gmail.com",
@@ -28,27 +22,27 @@
   "products": [
     {
       "name": " Classic Tethered Metallic Table (Set of 2)",
-      "price": "12999",
-      "color": "",
+      "price": "12,100",
       "category": "Table",
+      "color": "white",
       "description": "Smartly designed coffee table which is more than just mere tables in the corner. The luxurious golden touch on the metal makes it an attractive statement in your living room, bedroom or study. Round and resilient marble on the top is more like the cherry on the top which imparts that essential wholesome look to the table.",
       "image": "https://i.postimg.cc/WpgZyj2Q/skybird-tables-classic-tethered.webp",
       "id": 2
     },
     {
       "name": "Handcrafted Matte White Donut Flower Vase",
-      "price": "849",
-      "color": "white",
+      "price": "950",
       "category": "Table decor",
+      "color": "white",
       "description": "This state-of-the-art sculptural pieces can be a focal point of your home décor. The versatile and simplistic design of these vases opens up a lot of functional opportunities. One can use them with fresh flowers, dried branches, or maybe just nothing. This green donut shaped ceramic pottery is a multipurpose set and the perfect accessory for your home décor. Use these to decorate a single flower stem, dry stem or put it in a corner just like that. Buy it for yourself, or gift it to others, its simple yet stately look is sure to impress you.",
       "image": "https://i.postimg.cc/Jnh0XjHp/crok-chok-vases-handcrafted.webp",
       "id": 3
     },
     {
       "name": "Playful Figurine Wooden Floor Lamp",
-      "price": "4999",
-      "color": "",
+      "price": "4,699",
       "category": "Floor Lamb",
+      "color": "black",
       "description": " An eccentric human figure floor lamp that instantly lifts up the mood. A fun and creative designer wooden lamp which could be the best addition to the living room as well as bedroom. The best part is, it is movable and adjustable, therefore you can change it's position and stance as according to the way you want.",
       "image": "https://i.postimg.cc/sXMv0fMJ/lamp-3-800x.webp",
       "id": 4
@@ -75,7 +69,7 @@
       "name": "Shell Motif Luxury Green Velvet Lounge Chair",
       "price": "14,999",
       "category": "Lounge Chairs",
-      "color": "Green",
+      "color": "teal",
       "description": "Dimension: Height 31 in X Width 30 in\n Material: Green velvet seat and golden finished iron leg\n USP: Resilient iron chair that fits perfect with your dining table. Can also be used as normal chair to be placed anywhere\n Package Content: Pack of 1 dining chair",
       "image": "https://i.postimg.cc/Y0PyR49Z/vgvshb.webp",
       "id": 8
@@ -84,7 +78,7 @@
       "name": "Handpainted Matte Mint Green Ceramic Dinner Plates Set Of 2",
       "price": "1,199",
       "category": "kitchen&Dining",
-      "color": "MintGreen",
+      "color": "turquoise",
       "description": "Dimension- 10 X10 X 1 Inches\n Made of premium quality ceramic in attractive matte turquoise color\n Dishwasher Safe ,Freezer Safe ,Non Toxic ,Bpa Free ,Environment Friendly ,Reusable And Odorless\n Package Content- 2 Dinner Plates\n Colors may slightly vary from the original image\n Made in India\n",
       "image": "https://i.postimg.cc/T1TWsQyW/crok-chok-dinnerware-handpainted-matte-mint-green-ceramic-dinner-plates-set-of-2-33086692262054-800x.jpg",
       "id": 9
@@ -113,12 +107,6 @@
       "id": 2
     },
     {
-      "name": "nidhin",
-      "email": "nidhin@gmail.com",
-      "password": "123",
-      "id": 3
-    },
-    {
       "name": "achu",
       "email": "achu@gmail.com",
       "password": "123",
@@ -141,6 +129,12 @@
       "email": "apz@gmail.com",
       "password": "123",
       "id": 7
+    },
+    {
+      "name": "demo",
+      "email": "demouser@gmail.com",
+      "password": "123",
+      "id": 8
     }
   ],
   "cart": [
@@ -287,6 +281,18 @@
       "userId": 1,
       "productId": 3,
       "id": 37
+    },
+    {
+      "name": "Handcrafted Matte White Donut Flower Vase",
+      "price": "950",
+      "category": "Table decor",
+      "color": "white",
+      "description": "This state-of-the-art sculptural pieces can be a focal point of your home décor. The versatile and simplistic design of these vases opens up a lot of functional opportunities. One can use them with fresh flowers, dried branches, or maybe just nothing. This green donut shaped ceramic pottery is a multipurpose set and the perfect accessory for your home décor. Use these to decorate a single flower stem, dry stem or put it in a corner just like that. Buy it for yourself, or gift it to others, its simple yet stately look is sure to impress you.",
+      "image": "https://i.postimg.cc/Jnh0XjHp/crok-chok-vases-handcrafted.webp",
+      "quantity": 1,
+      "userId": 7,
+      "productId": 3,
+      "id": 38
     }
   ],
   "orders": [
@@ -313,6 +319,14 @@
       "totalPrice": 949.0000000000001,
       "userId": 1,
       "id": 3
+    },
+    {
+      "email": "apz@gmail.com",
+      "address": "123 rose",
+      "contact": "999999999999",
+      "totalPrice": 1050,
+      "userId": 7,
+      "id": 4
     }
   ]
 }

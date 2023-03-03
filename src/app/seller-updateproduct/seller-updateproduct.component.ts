@@ -18,6 +18,8 @@ export class SellerUpdateproductComponent {
     console.warn(productId);
     productId &&
       this.product.getProduct(productId).subscribe((data) => {
+        console.log(data);
+        
         this.productData = data;
       });
   }
